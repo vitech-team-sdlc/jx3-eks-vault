@@ -15,7 +15,7 @@ repositories:
   url: https://jenkins-x-charts.github.io/repo
 releases:
 - chart: prometheus-community/kube-prometheus-stack
-  version: 19.2.2
+  version: 19.3.0
   name: monitoring
   values:
   - jx-values.yaml
