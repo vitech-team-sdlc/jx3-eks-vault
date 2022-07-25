@@ -3,8 +3,6 @@ pvc:
 resources:
   requests:
     storage: "2Gi"
-
-
 nginx:
   serverBlock: |-
     server {
@@ -29,7 +27,6 @@ nginx:
     tls:
     hosts:
       - name: large-test-reports.{{ .Values.jxRequirements.ingress.domain }}
-
 selenium:
   selenium:
     hub:
